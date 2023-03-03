@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(144, 167, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenido {
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contenido .left_side {
+    position: relative;
+    background-color: rgb(48, 77, 61);
+    width: 400px;
+    padding: 40px;
+    margin: 0 10px 0 10px;
+}
+
+.contenido .right_side {
+    position: relative;
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.left_side .subs {
+    color:rgb(196, 202, 196);
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.right_side .subs {
+    color:rgb(4, 54, 4);
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+.image-profile {
+    position: relative;
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 20%;
+}
+
+.image-profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about {
+    position: relative;
+    color: rgb(4, 54, 4);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.contact {
+    position: relative;
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(196, 202, 196);
+}
+
+.contact li {
+    position: relative;
+    text-align: center;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.material-icons {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(4, 54, 4);
+    align-items: center;
+    padding-right: 20px;
+}
+
+.lang {
+    position: relative;
+    padding-top: 15px;
+    font-size: 0.9em;
+    padding-bottom: 30px;
+    color: rgb(196, 202, 196);
+}
+
+.lang li .percent{
+    position: relative;
+    margin: 10px 0 10px;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(196, 202, 196);
+    display: block;
+}
+
+.lang li .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:rgb(4, 54, 4);
+}
+
+p {
+    color: rgb(196, 202, 196);
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.exp li {
+    position: relative;
+    color: rgb(4, 54, 4);
+    text-align: left;
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.contenedor-valores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    height: 120px;
+    width: 281px; 
+}
+
+.skills li {
+    position: relative;
+    color: rgb(4, 54, 4);
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.skills li .percent {
+    position: relative;
+    margin: 10px 0 10px;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(144, 167, 144);
+    display: block;
+}
+
+.skills li .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color:rgb(4, 54, 4);
+}
+
+.hobby li {
+    position: relative;
+    color: rgb(4, 54, 4);
+    text-align: left;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+a {
+    position: relative;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgb(196, 202, 196);
+    text-decoration: none;
+    margin: 20px 0 20px 75px;
+}
+
+#titulo {
+    color:rgb(196, 202, 196);
+    font-size: 2.30em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+#nombre {
+    color:rgb(196, 202, 196);
+    font-size: 2.10em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+#profesion {
+    color:rgb(196, 202, 196);
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4em;
+}
